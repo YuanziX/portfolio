@@ -18,7 +18,7 @@ export default function ContactSection() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                         <Button
                             asChild
-                            variant="outline"
+                            variant="destructive"
                             className="bg-violet-500 text-gray-900 hover:bg-violet-600"
                         >
                             <Link href="mailto:achubadyal4@gmail.com">
@@ -28,7 +28,7 @@ export default function ContactSection() {
                         </Button>
                         <Button
                             asChild
-                            variant="outline"
+                            variant="destructive"
                             className="bg-violet-500 text-gray-900 hover:bg-violet-600"
                         >
                             <Link href="https://t.me/YuanziX">
